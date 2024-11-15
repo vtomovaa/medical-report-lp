@@ -1,0 +1,313 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+p {
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  box-shadow: 0 0 10px #333333;
+  padding: 1px 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.container-content,
+.story-content p {
+  text-indent: 15px;
+}
+
+.container-content h2 {
+  font-size: 40px;
+  font-family: "Truculenta", sans-serif;
+  color: black;
+}
+
+header {
+  box-shadow: 0 0 10px #333333;
+  width: 50%;
+  padding: 1px 20px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div span,
+a {
+  color: #ff1f32;
+}
+
+header div h1 {
+  font-size: 57px;
+  font-style: italic;
+}
+
+header div p {
+  font-size: 24px;
+  font-style: italic;
+}
+
+header div h1,
+header div p {
+  color: #0060bc;
+  margin: auto;
+}
+
+.about-img,
+.doctor-story {
+  float: left;
+  margin-right: 40px;
+}
+
+.doctor-story {
+  margin-top: 40px;
+}
+
+.doctor-story ul li {
+  list-style-type: disc
+}
+
+.medical-title {
+  color: black;
+  padding: 10px 20px;
+  margin-bottom: 18px;
+}
+
+.story-content-img {
+  width: 55%;
+  margin-left: 6%;
+}
+
+.story-content ol {
+  width: 70%;
+  margin-left: 4%;
+}
+
+.story-content h3 {
+  text-decoration: underline;
+}
+
+.story-content p,
+.container-content p {
+  width: 90%;
+}
+
+.official-btn {
+  text-align: center;
+}
+
+.comment-p {
+  font-size: 14px;
+}
+
+.product-section {
+  display: flex;
+  align-items: center;
+  background-color: #e6e5e5;
+  box-shadow: 0 0 6px #333333;
+  font-size: 18px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.varico-img {
+  width: 50%;
+  margin-right: 6%;
+}
+
+/* Comments */
+
+.official-btn a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #f65c44;
+  color: rgb(253, 255, 252);
+  padding: 20px 45px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 26px;
+}
+
+.official-btn a:hover {
+  background-color: #cc0000;
+}
+
+.comments-div {
+  padding: 20px;
+}
+
+.comments {
+  display: flex;
+  align-items: stretch;
+}
+
+.comments,
+.hidden-comments {
+  margin-bottom: 20px;
+}
+
+#last-comm-btn {
+  flex-direction: column;
+}
+
+.comm-text {
+  flex: 1;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.comm-img {
+  width: 60%;
+}
+
+.name {
+  font-weight: 700;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li {
+  margin: 20px;
+}
+
+footer ul li a {
+  color: #333;
+}
+
+@media only screen and (max-width: 1440px) {
+
+  .varico-img {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .container,
+  header {
+    width: 80%;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .product-section {
+    display: block;
+  }
+
+  .varico-img {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .about-img,
+  .doctor-story {
+    margin-right: 26px;
+  }
+
+  header div h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container-content h2 {
+    font-size: 30px;
+  }
+
+  .story-content {
+    padding: 0;
+  }
+
+  .story-content-img {
+    width: 100%;
+    margin: auto;
+  }
+
+  .about-img,
+  .doctor-story {
+    margin-right: 10px;
+  }
+
+  .varico-img {
+    width: 70%;
+  }
+
+  .story-content ul {
+    margin-left: 130px !important;
+  }
+
+  .story-content ul {
+    margin: 10px;
+  }
+
+  .comm-img,
+  .comm-text {
+    width: 100%;
+  }
+
+  .story-content ol {
+    width: 100%;
+    margin-left: 6%;
+  }
+
+  .official-btn a {
+    font-size: 22px;
+  }
+
+  header div h1 {
+    font-size: 22px;
+  }
+
+  header div p {
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+  footer ul li {
+    margin: 10px;
+  }
+
+  .container-content h2 {
+    font-size: 22px;
+  }
+
+  header div h1 {
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  .story-content ul {
+    margin-top: 55px !important;
+    margin-left: 20px !important;
+  }
+
+}
